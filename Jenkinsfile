@@ -10,7 +10,7 @@ agent any
     stage("copy") 
      {
       steps{
-        bat 'copy https://raw.githubusercontent.com/tpandhi/jenkin_assignment/main/index.html C:/Users/yajwi/OneDrive/Desktop/jenkins_assignment'
+        bat 'copy 'https://raw.githubusercontent.com/tpandhi/jenkin_assignment/main/index.html' C:/Users/yajwi/OneDrive/Desktop/jenkins_assignment'
       }
     }
    
