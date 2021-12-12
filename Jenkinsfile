@@ -4,13 +4,13 @@ agent any
   stage("git") 
      {
       steps{
-        git branch:'main', url:'https://github.com/teghdeep/testing.git'
+        git branch:'main', url:'https://github.com/tpandhi/jenkin_assignment.git'
       }
     }
     stage("copy") 
      {
       steps{
-        bat 'copy 'https://raw.githubusercontent.com/tpandhi/jenkin_assignment/main/index.html' C:/Users/yajwi/OneDrive/Desktop/jenkins_assignment'
+        bat 'copy index.html C:/Users/yajwi/OneDrive/Desktop/jenkins_assignment'
       }
     }
    
