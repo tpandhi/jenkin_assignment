@@ -10,7 +10,7 @@ agent any
     stage("copy") 
      {
       steps{
-        bat "cp index.html C:/Users/yajwi/OneDrive/Desktop/jenkins_assignment/"
+        bat "copy index.html C:/Users/yajwi/OneDrive/Desktop/jenkins_assignment/"
       }
     }
    
