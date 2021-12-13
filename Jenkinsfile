@@ -10,7 +10,7 @@ agent any
     stage("copy") 
      {
       steps{
-        echo 'Copy..'
+        bat ' copy index.html C:\Users\yajwi\OneDrive\Desktop\jenkins_assignmnet'
       }
     }
    
